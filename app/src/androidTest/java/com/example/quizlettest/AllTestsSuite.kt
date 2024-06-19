@@ -2,11 +2,12 @@ package com.example.quizlettest
 
 import org.junit.runner.RunWith
 import org.junit.runners.Suite
-import org.junit.runners.Suite.SuiteClasses
+import com.example.quizlettest.MainActivityTest
+import com.example.quizlettest.MyActivityTest
+import com.example.quizlettest.SecondActivityTest
 
-// Specify the classes to be included in the test suite
 @RunWith(Suite::class)
-@SuiteClasses(
+@Suite.SuiteClasses(
     MainActivityTest::class,
     MyActivityTest::class,
     SecondActivityTest::class
